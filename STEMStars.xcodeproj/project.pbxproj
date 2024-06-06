@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD6579E02C10FA120074808D /* STEMStarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6579DF2C10FA120074808D /* STEMStarsApp.swift */; };
+		BD6579E22C10FA120074808D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6579E12C10FA120074808D /* ContentView.swift */; };
+		BD6579E42C10FA140074808D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6579E32C10FA140074808D /* Assets.xcassets */; };
+		BD6579E72C10FA140074808D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6579E62C10FA140074808D /* Preview Assets.xcassets */; };
+		BD6579F12C10FA140074808D /* STEMStarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6579F02C10FA140074808D /* STEMStarsTests.swift */; };
+		BD6579FB2C10FA140074808D /* STEMStarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6579FA2C10FA140074808D /* STEMStarsUITests.swift */; };
+		BD6579FD2C10FA140074808D /* STEMStarsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6579FC2C10FA140074808D /* STEMStarsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD6579ED2C10FA140074808D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD6579D42C10FA120074808D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD6579DB2C10FA120074808D;
+			remoteInfo = STEMStars;
+		};
+		BD6579F72C10FA140074808D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD6579D42C10FA120074808D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD6579DB2C10FA120074808D;
+			remoteInfo = STEMStars;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD6579DC2C10FA120074808D /* STEMStars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STEMStars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6579DF2C10FA120074808D /* STEMStarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEMStarsApp.swift; sourceTree = "<group>"; };
+		BD6579E12C10FA120074808D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD6579E32C10FA140074808D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD6579E62C10FA140074808D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD6579EC2C10FA140074808D /* STEMStarsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STEMStarsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6579F02C10FA140074808D /* STEMStarsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEMStarsTests.swift; sourceTree = "<group>"; };
+		BD6579F62C10FA140074808D /* STEMStarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STEMStarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6579FA2C10FA140074808D /* STEMStarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEMStarsUITests.swift; sourceTree = "<group>"; };
+		BD6579FC2C10FA140074808D /* STEMStarsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEMStarsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD6579D92C10FA120074808D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6579E92C10FA140074808D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6579F32C10FA140074808D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD6579D32C10FA120074808D = {
+			isa = PBXGroup;
+			children = (
+				BD6579DE2C10FA120074808D /* STEMStars */,
+				BD6579EF2C10FA140074808D /* STEMStarsTests */,
+				BD6579F92C10FA140074808D /* STEMStarsUITests */,
+				BD6579DD2C10FA120074808D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD6579DD2C10FA120074808D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD6579DC2C10FA120074808D /* STEMStars.app */,
+				BD6579EC2C10FA140074808D /* STEMStarsTests.xctest */,
+				BD6579F62C10FA140074808D /* STEMStarsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD6579DE2C10FA120074808D /* STEMStars */ = {
+			isa = PBXGroup;
+			children = (
+				BD6579DF2C10FA120074808D /* STEMStarsApp.swift */,
+				BD6579E12C10FA120074808D /* ContentView.swift */,
+				BD6579E32C10FA140074808D /* Assets.xcassets */,
+				BD6579E52C10FA140074808D /* Preview Content */,
+			);
+			path = STEMStars;
+			sourceTree = "<group>";
+		};
+		BD6579E52C10FA140074808D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD6579E62C10FA140074808D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD6579EF2C10FA140074808D /* STEMStarsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD6579F02C10FA140074808D /* STEMStarsTests.swift */,
+			);
+			path = STEMStarsTests;
+			sourceTree = "<group>";
+		};
+		BD6579F92C10FA140074808D /* STEMStarsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD6579FA2C10FA140074808D /* STEMStarsUITests.swift */,
+				BD6579FC2C10FA140074808D /* STEMStarsUITestsLaunchTests.swift */,
+			);
+			path = STEMStarsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD6579DB2C10FA120074808D /* STEMStars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD657A002C10FA140074808D /* Build configuration list for PBXNativeTarget "STEMStars" */;
+			buildPhases = (
+				BD6579D82C10FA120074808D /* Sources */,
+				BD6579D92C10FA120074808D /* Frameworks */,
+				BD6579DA2C10FA120074808D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STEMStars;
+			productName = STEMStars;
+			productReference = BD6579DC2C10FA120074808D /* STEMStars.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD6579EB2C10FA140074808D /* STEMStarsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD657A032C10FA140074808D /* Build configuration list for PBXNativeTarget "STEMStarsTests" */;
+			buildPhases = (
+				BD6579E82C10FA140074808D /* Sources */,
+				BD6579E92C10FA140074808D /* Frameworks */,
+				BD6579EA2C10FA140074808D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD6579EE2C10FA140074808D /* PBXTargetDependency */,
+			);
+			name = STEMStarsTests;
+			productName = STEMStarsTests;
+			productReference = BD6579EC2C10FA140074808D /* STEMStarsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD6579F52C10FA140074808D /* STEMStarsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD657A062C10FA140074808D /* Build configuration list for PBXNativeTarget "STEMStarsUITests" */;
+			buildPhases = (
+				BD6579F22C10FA140074808D /* Sources */,
+				BD6579F32C10FA140074808D /* Frameworks */,
+				BD6579F42C10FA140074808D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD6579F82C10FA140074808D /* PBXTargetDependency */,
+			);
+			name = STEMStarsUITests;
+			productName = STEMStarsUITests;
+			productReference = BD6579F62C10FA140074808D /* STEMStarsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD6579D42C10FA120074808D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BD6579DB2C10FA120074808D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BD6579EB2C10FA140074808D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BD6579DB2C10FA120074808D;
+					};
+					BD6579F52C10FA140074808D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BD6579DB2C10FA120074808D;
+					};
+				};
+			};
+			buildConfigurationList = BD6579D72C10FA120074808D /* Build configuration list for PBXProject "STEMStars" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD6579D32C10FA120074808D;
+			productRefGroup = BD6579DD2C10FA120074808D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD6579DB2C10FA120074808D /* STEMStars */,
+				BD6579EB2C10FA140074808D /* STEMStarsTests */,
+				BD6579F52C10FA140074808D /* STEMStarsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD6579DA2C10FA120074808D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6579E72C10FA140074808D /* Preview Assets.xcassets in Resources */,
+				BD6579E42C10FA140074808D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6579EA2C10FA140074808D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6579F42C10FA140074808D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD6579D82C10FA120074808D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6579E22C10FA120074808D /* ContentView.swift in Sources */,
+				BD6579E02C10FA120074808D /* STEMStarsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6579E82C10FA140074808D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6579F12C10FA140074808D /* STEMStarsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6579F22C10FA140074808D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6579FB2C10FA140074808D /* STEMStarsUITests.swift in Sources */,
+				BD6579FD2C10FA140074808D /* STEMStarsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD6579EE2C10FA140074808D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD6579DB2C10FA120074808D /* STEMStars */;
+			targetProxy = BD6579ED2C10FA140074808D /* PBXContainerItemProxy */;
+		};
+		BD6579F82C10FA140074808D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD6579DB2C10FA120074808D /* STEMStars */;
+			targetProxy = BD6579F72C10FA140074808D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BD6579FE2C10FA140074808D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD6579FF2C10FA140074808D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD657A012C10FA140074808D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"STEMStars/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.STEMStars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD657A022C10FA140074808D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"STEMStars/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.STEMStars;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD657A042C10FA140074808D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.STEMStarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STEMStars.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/STEMStars";
+			};
+			name = Debug;
+		};
+		BD657A052C10FA140074808D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.STEMStarsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STEMStars.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/STEMStars";
+			};
+			name = Release;
+		};
+		BD657A072C10FA140074808D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.STEMStarsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = STEMStars;
+			};
+			name = Debug;
+		};
+		BD657A082C10FA140074808D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kwk.STEMStarsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = STEMStars;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD6579D72C10FA120074808D /* Build configuration list for PBXProject "STEMStars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6579FE2C10FA140074808D /* Debug */,
+				BD6579FF2C10FA140074808D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD657A002C10FA140074808D /* Build configuration list for PBXNativeTarget "STEMStars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD657A012C10FA140074808D /* Debug */,
+				BD657A022C10FA140074808D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD657A032C10FA140074808D /* Build configuration list for PBXNativeTarget "STEMStarsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD657A042C10FA140074808D /* Debug */,
+				BD657A052C10FA140074808D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD657A062C10FA140074808D /* Build configuration list for PBXNativeTarget "STEMStarsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD657A072C10FA140074808D /* Debug */,
+				BD657A082C10FA140074808D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD6579D42C10FA120074808D /* Project object */;
+}
